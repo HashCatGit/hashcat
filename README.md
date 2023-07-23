@@ -12,7 +12,7 @@ This tool takes an array containing transaction hashes and calculates the differ
 
 2. Clone the project to your local machine:
 
-git clone https://github.com/your_username/your_repository.git
+    git clone https://github.com/HashCatGit/hashcat.git
 
 3.  Navigate to the project directory and install dependencies:
 cd your_repository
