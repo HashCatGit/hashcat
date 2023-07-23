@@ -21,6 +21,7 @@ npm install
 4. Run the project:
 
 Verification method
+
 hash the transactions that need to be verified into an array, and pass the calculatingResults to get the sorting result
 
 Verification process
