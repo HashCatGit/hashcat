@@ -19,3 +19,12 @@ cd your_repository
 npm install
 
 4. Run the project:
+
+Verification method
+hash the transactions that need to be verified into an array, and pass the calculatingResults to get the sorting result
+
+Verification process
+1. will receive the array, the last two hashes string concatenation
+2. Sign the concatenated string with sha256 hash and get a hash for comparison
+3. Use traversal to calculate the difference between all transaction hash and reference hash.
+4. Sort the result of difference calculation in ascending order to get the result
